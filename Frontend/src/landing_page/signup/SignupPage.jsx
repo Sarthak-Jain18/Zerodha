@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export default function SignupPage() {
 
     useEffect(() => {
-        window.location.href = `${import.meta.env.VITE_DASHBOARD_URL}/signup`;
+        window.location.href = `${import.meta.env.VITE_DASHBOARD_URL}/`;
     }, []);
 
     return (
