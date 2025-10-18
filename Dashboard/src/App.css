@@ -1,0 +1,229 @@
+/* common shades */
+.txt-muted {
+    color: #424242;
+}
+
+/* DASHBOARD BUTTONS */
+.menu {
+    color: #424242;
+}
+
+.menu:hover {
+    color: #dc342c;
+}
+
+.menu_active {
+    color: #dc342c;
+}
+
+.menu_deactive {
+    color: #424242;
+}
+
+/* PROFIT LOSS COLORS */
+.loss {
+    color: #e75757;
+}
+
+.profit {
+    color: #1ad330;
+}
+
+.profit small {
+    font-size: 0.5em;
+}
+
+.custom-btn-blue {
+    color: white;
+    background-color: #387ed1;
+    cursor: pointer;
+}
+
+.custom-btn-blue:hover {
+    color: white;
+    background-color: #424242;
+}
+
+.custom-btn-orange {
+    color: white;
+    background-color: #ff5722;
+    cursor: pointer;
+}
+
+.custom-btn-orange:hover {
+    color: white;
+    background-color: #424242;
+}
+
+/* HOLDINGS TABLE */
+.order-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* ORDERS TABLE */
+.order-table thead th {
+    border-top: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.order-table tbody th {
+    width: 8rem;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+.order-table tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.order-table table tr:hover {
+    background-color: #f8f9fa;
+    /* light gray */
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* FUNDS TABLE */
+.funds-table p {
+    margin: 0 0.25rem;
+}
+
+.funds-table-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.buy {
+    background-color: #387ed1;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 0.7px solid #387ed1;
+    border-radius: 0.25rem;
+}
+
+.sell {
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 0.7px solid #ff5722;
+    border-radius: 0.25rem;
+}
+
+.action-cell {
+    position: relative;
+}
+
+.action-cell button {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+tr:hover .action-cell button {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.kite-card {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SELL BTN - MODAL  */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    pointer-events: all;
+}
+
+/* modal box */
+.modal-box {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 1100;
+    position: relative;
+}
+
+/* SIGNUP-LOGIN */
+.auth_inner_container {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.form_svg {
+    padding: 0.2rem;
+}
+
+.form_sumbit {
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.form_sumbit:hover {
+    background-color: #555;
+}
+
+.acc-auth-link {
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.acc-auth-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.google-btn {
+    border: none;
+    background-color: none;
+    border-radius: 0.25rem;
+}
+
+.google-btn:hover {
+    color: white;
+    background-color: #555;
+}
+
+.google-btn img {
+    width: 2.5rem;
+}
+
+/* SIGNUP/LOGIN-ZERODHA_LOGO */
+.signup-logo {
+    transition: opacity 0.3s ease;
+}
+
+.signup-logo:hover {
+    opacity: 0.8;
+}
+

@@ -1,0 +1,140 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.mute1 {
+  color: #424242;
+}
+
+.mute2 {
+  color: #555;
+}
+
+.mute3 {
+  color: #666;
+}
+
+.theme-clr {
+  color: #387ed1;
+}
+
+.custom-link-hover {
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.custom-link-hover:hover {
+  color: rgb(69, 69, 255);
+}
+
+.custom-link-hover2 {
+  font-weight: 600;
+  text-decoration: none;
+  color: #387ed1;
+  cursor: pointer;
+}
+
+.custom-link-hover2:hover {
+  color: #666;
+}
+
+/* NAVBAR */
+.nav-link {
+  color: #424242;
+}
+
+.nav-link:hover {
+  color: #387ed1;
+}
+
+.custom-bio-btn {
+  border: none;
+  color: #666;
+  background: white;
+}
+
+.custom-bio-btn:hover {
+  color: #424242;
+}
+
+.custom-signup-btn {
+  background-color: #387ed1;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.custom-signup-btn:hover {
+  background-color: #555;
+  color: white;
+}
+
+.custom-hover-img {
+  cursor: pointer;
+}
+
+.custom-hover-img:hover {
+  opacity: 0.8;
+}
+
+/* TABLE ON PRICING PAGE */
+.custom-table>tbody>tr:nth-of-type(odd)>td {
+  background-color: white;
+}
+
+.custom-table>tbody>tr:nth-of-type(even)>td {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.custom-table tbody tr td {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.table-btn {
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+}
+
+@media (max-width: 576px) {
+  .table-btn {
+    font-size: 1rem;
+  }
+}
+
+.table-btn-non-active {
+  color: #387ed1;
+}
+
+.table-btn-non-active:hover {
+  color: #424242;
+}
+
+.table-btn-active {
+  color: #424242;
+}
+
+/* SUPPORT INPUT  */
+.input-group {
+  transition: box-shadow 0.3s ease;
+  box-shadow: none;
+}
+
+.input-group:focus-within {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#support_input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* SUPPORT DOUBT CARD */
+.clickable-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
